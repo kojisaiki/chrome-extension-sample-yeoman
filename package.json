@@ -5,7 +5,9 @@
     "node": ">=0.8.0"
   },
   "scripts": {
-    "build": "node_modules/.bin/gulp"
+    "clean": "node_modules/.bin/gulp clean",
+    "build": "node_modules/.bin/gulp",
+    "package": "node_modules/.bin/gulp package"
   },
   "devDependencies": {
     "babel-core": "^6.7.2",
